@@ -1,4 +1,4 @@
-# -*- coding : latin -*-
+    # -*- coding : latin -*-
 # Python 3.7
 
 idade = int(input('informe a idade em dias: '))
