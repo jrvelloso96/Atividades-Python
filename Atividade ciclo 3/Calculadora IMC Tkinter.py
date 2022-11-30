@@ -7,6 +7,7 @@ con = sqlite3.connect('IMC.db')
 cur = con.cursor()
 cur.execute("CREATE TABLE IMC (nome text, endereco text, peso integer, altura integer, IMC float)")
 
+
 app = Tk()
 app.title("Calculadora IMC")
 app.geometry("700x300")
